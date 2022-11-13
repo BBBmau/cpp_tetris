@@ -8,6 +8,6 @@ sudo apt-get install libglu1-mesa-dev freeglut3-dev mesa-common-dev
 sudo apt-get install libsoil-dev
 ```
 
-The following code is used to compile the program with OpenGL and SOIL libraries.
+The following code is used to compile the program with OpenGL, SOIL, and GLFW libraries from root directory.
 
-`g++ main.cpp -o firstOpenGlApp -lglut -lGLU -lGL -lSOIL`
+`g++ src/main.cpp -o firstOpenGlApp -lglut -lGLU -lGL -lSOIL -lglfw`
