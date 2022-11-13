@@ -1,4 +1,5 @@
 #include <GL/glut.h>
+#include "SOIL/SOIL.h"
 
 void displayMe(void)
 {
